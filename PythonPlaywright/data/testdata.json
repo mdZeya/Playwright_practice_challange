@@ -1,0 +1,37 @@
+{
+  "valid_user":{
+  "username" : "Admin",
+  "password" : "admin123",
+    "expected": "success"
+},
+  "invalid_user1": {
+    "username" : "Admin",
+    "password" : "wrong",
+    "expected" : "fail"
+  },
+  "invalid_user2": {
+    "username" : "wrong",
+    "password" : "admin123",
+    "expected" : "fail"
+  },
+  "invalid_user3" : {
+    "username" : "",
+    "password" : "",
+    "expected" : "fail"
+  },
+  "invalid_user4" : {
+    "username" : "worng",
+    "password" : "wrong",
+    "expected" : "fail"
+  },
+  "invalid_user5" : {
+    "username" : "Admin",
+    "password" : "",
+    "expected" : "fail"
+  },
+  "invalid_user6" : {
+    "username" : "",
+    "password" : "admin123",
+    "expected" : "fail"
+  }
+}

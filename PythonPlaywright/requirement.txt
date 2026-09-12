@@ -1,0 +1,40 @@
+laywrightPythonFramework/
+│
+├── tests/
+│   ├── test_login.py
+│   ├── test_products.py
+│   ├── test_cart.py
+│   ├── test_checkout.py
+│   └── test_api.py
+│
+├── pageObjects/
+│   ├── LoginPage.py
+│   ├── HomePage.py
+│   ├── ProductPage.py
+│   ├── CartPage.py
+│   └── CheckoutPage.py
+│
+├── data/
+│   ├── credentials.json
+│   └── testdata.json
+│
+├── utils/
+│   ├── configReader.py
+│   ├── jsonReader.py
+│   ├── logger.py
+│   └── helpers.py
+│
+├── assets/
+│   └── test_files/
+│
+├── api/
+│   └── api_client.py
+│
+├── reports/
+│
+├── screenshots/
+│
+├── conftest.py
+├── pytest.ini
+├── requirements.txt
+└── README.md
