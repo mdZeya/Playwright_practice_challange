@@ -12,7 +12,7 @@ def login_page(page):
 
 @pytest.fixture
 def credentials():
-    return read_json("PythonPlaywright/data/testdata.json")
+    return read_json("data/testdata.json")
 
 @pytest.fixture
 def dashboard(page):
