@@ -10,8 +10,8 @@ class LoginPage:
         self.forgot_password_button = page.get_by_text("Forgot your password?")
 
     def login(self,username,password):
-        self.username.fill("Admin")
-        self.password.fill("admin123")
+        self.username.fill(username)
+        self.password.fill(password)
         self.login_button.click()
 
     def forgot_password(self):

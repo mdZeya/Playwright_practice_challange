@@ -83,3 +83,4 @@ def test_Admin_page(login_page,dashboard):
     login_page.login("Admin", "admin123")
     dashboard.Admin_click()
     expect(dashboard.page).to_have_url("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers")
+
